@@ -1,0 +1,16 @@
+{
+  "name": "midminton-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 1420 --strictPort",
+    "build": "tsc --noEmit && vite build",
+    "desktop": "tauri dev",
+    "desktop:build": "tauri build",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {"@tauri-apps/api": "^2.0.0"},
+  "devDependencies": {"@tauri-apps/cli": "^2.0.0", "typescript": "~5.9.3", "vite": "^7.0.0"},
+  "engines": {"node": ">=22.12"}
+}

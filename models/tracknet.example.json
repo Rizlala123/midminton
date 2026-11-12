@@ -1,0 +1,11 @@
+{
+  "kind": "tracknetv3",
+  "file": "tracknet.onnx",
+  "sha256": "REPLACE_WITH_SHA256_FROM_EXPORT_SCRIPT",
+  "sequence_length": 8,
+  "bg_mode": "concat",
+  "fps": 30,
+  "source": "https://github.com/qaz812345/TrackNetV3",
+  "license": "MIT",
+  "inpainting": false
+}

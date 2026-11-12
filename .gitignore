@@ -1,0 +1,23 @@
+# Local dependencies, builds and application data (not authored source).
+node_modules/
+dist/
+target/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+models/local/
+projects/
+*.sqlite3*
+*.mp4
+*.mov
+*.mkv
+*.onnx
+*.pt
+*.pth
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store

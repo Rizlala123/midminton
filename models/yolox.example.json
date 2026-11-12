@@ -1,0 +1,9 @@
+{
+  "kind": "yolox",
+  "file": "yolox_tiny.onnx",
+  "sha256": "REPLACE_WITH_SHA256_FROM_REGISTER_SCRIPT",
+  "size": 416,
+  "decoded_boxes": false,
+  "source": "https://github.com/Megvii-BaseDetection/YOLOX",
+  "license": "Apache-2.0"
+}

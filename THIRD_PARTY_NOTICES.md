@@ -15,4 +15,4 @@ TrackNet integration here implements the heatmap network only. It does **not** c
 
 The original `KiranYelisetti/badminton-ai-analysis` review found a design-only README at inspected commit `b5cc40b4`; no runnable application was copied from it. Earlier candidate repositories are research references in the FSD, not imported dependencies.
 
-The main application's publication licence has not been selected by Riz. This document does not grant a new project licence. There are no subscription or inference charges in this implementation; initial dependency/weight downloads require internet access on the target PC.
+The main application's repository includes Riz's [MIT licence](LICENSE), retained from the GitHub initial commit during integration on 20 November 2026. Dependency and model licences remain separate. There are no subscription or inference charges in this implementation; initial dependency/weight downloads require internet access on the target PC.

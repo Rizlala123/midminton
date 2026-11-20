@@ -42,3 +42,14 @@ testing/<date_time>/     Target-PC testing instructions and result templates
 For target-PC development, install the prerequisites, create `.venv`, install `python[vision,export,test]`, run `tools/prepare_icons.py`, install npm dependencies and use `npm run desktop`. Full commands and the GPU alternative are in the handoff. The Rust shell launches the interpreter selected by `MIDMINTON_PYTHON`; a production installer still requires that local Python environment and FFmpeg. It is not yet a self-contained Python/CUDA installer.
 
 No dependency resolution was performed here, so `package-lock.json` and `Cargo.lock` must be generated and checked on the target PC, then committed. They are intentionally not fabricated. Model weights, recordings, environments, databases, caches, build outputs and secrets are excluded from Git.
+
+## Repository and licence
+
+Source: [Rizlala123/midminton](https://github.com/Rizlala123/midminton). On the testing PC:
+
+```powershell
+git clone https://github.com/Rizlala123/midminton.git
+cd midminton
+```
+
+Continue with the [target-PC setup instructions](testing/2026-11-12_13-15-49_IST/requirements.md) before running anything. The repository includes Riz's [MIT licence](LICENSE); dependency and model notices remain separate.
